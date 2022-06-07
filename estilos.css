@@ -1,0 +1,174 @@
+*{
+   /*font-family: Monserrat;*/
+    font-family:'Montserrat', sans-serif; 
+    font-size: medium;
+    color: #2c2c2c; /**/
+}
+#linea{
+    background-color: #8CAC4C;
+    padding-top: -3px;
+    
+    height: 3px;
+    margin-bottom: 35px;
+    margin-top: -20px; /*snOSoaojdpojdOD*/
+
+
+}
+/* Contenedor del formulario */
+.login{
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+     background-color: rgb(253, 253, 253,0.9); 
+  
+    border-radius: 50px;
+    width: 50%;
+    backdrop-filter: blur(3px);
+    box-shadow: 2px 2px 25px 6px rgba(0, 0, 0, 0.2);
+    border-color: #8CAC4C;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+/* Titulo en el contenedor */
+.login h1{
+    font-size: 24pt;
+}
+
+.login h2{
+    font-size: 18pt;
+}
+
+.login a{
+    font-weight: bold;
+}
+/* Formulario de logeo */ 
+#formLogin{
+    text-align: center;
+    justify-content: center;
+    display:inline-grid;
+}
+
+
+/* Margenes de los input */
+#formLogin input{
+    margin:10px;
+}
+
+.inputTexto{
+    border-style: solid;
+    outline: none;
+    border-radius: 5px;
+    transition: 0.2s;
+    border-color: #52796f;
+    padding: 2px;
+
+}
+
+
+.inputTexto:focus{
+    border-color: #8CAC4C;
+}
+
+label{
+    font-size: 15pt;
+    font-weight: bold;
+     
+}
+
+
+
+/* Estilo del boton */
+button{
+    font-weight: bold;
+    margin: 10px;
+    outline: none;
+    border-radius: 5px;
+    padding: 4px;
+    border-style: solid;
+    border-color: rgb(201, 201, 201);
+    transition: 0.2s;
+}
+
+/* boton al pasar encima el raton */
+button:hover{
+    color: white;
+    background-color: #8CAC4C;
+    border-color: #8CAC4C;
+
+}
+
+/* Boton al tenerlo selecionado con el tabulador */
+button:focus{
+    border-color: #8CAC4C;
+}
+
+
+
+.menu{
+    width: 10%;
+    height: 9%;
+    padding: 20px;
+    position: fixed;
+    transition: .2s all;
+    z-index: 1;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+ .menu  ul li a {
+    transition: .2s;
+    opacity: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu h2{
+    opacity: 0;
+}
+.menu:hover h2{
+    opacity: 1;
+}
+
+.menu:hover {
+    background-color: white;
+    height: 100%;
+    width: 30%;
+}
+
+.menu:hover ul li a{
+    text-decoration: none;
+    list-style: none;
+    opacity: 1;
+}
+
+.menu a {
+    padding: 20px;
+    display: inline-grid;
+    width: 100%;
+}
+
+.menu a:hover{
+    background-color: #8CAC4C;
+    width: 100%;
+    color: white;
+    font-weight: bolder;
+}
+
+body{
+    background: url("recursos/pikist.jpg");   
+   background-color: rgb(226, 226, 226);
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+
+}
+
+#lista {
+    list-style: none;
+    text-align: left;
+}
